@@ -1,8 +1,8 @@
 # Angular_Framework
 
 <i>
-<a href="https://angular.io/"><b>Angular</b></a> is a JavaScript application design framework and development platform for creating efficient and sophisticated reactive single-page apps..
-
+<a href="https://angular.io/"><b>Angular</b></a> is a JavaScript application design framework and development platform for creating efficient and sophisticated reactive single-page apps.
+</br>
 <a href="https://angular.io/docs"><b>Angular Official Documentation</b></a>
 
 #### Angular Versions
