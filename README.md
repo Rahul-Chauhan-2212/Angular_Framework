@@ -1,7 +1,9 @@
 # Angular_Framework
 
 <i>
-<b>Angular</b> is a JavaScript Framework which allows you to create reactive single page applications(SPA).
+<a href="https://angular.io/"><b>Angular</b></a> is a JavaScript application design framework and development platform for creating efficient and sophisticated reactive single-page apps..
+
+<a href="https://angular.io/docs"><b>Angular Official Documentation</b></a>
 
 #### Angular Versions
 
@@ -9,7 +11,11 @@
 (was completely rewritten) | Angular 3 was missed | Small, incremental and backward compatible changes
 </h5>
 
-### Angular CLI
+### Setting up the local environment and workspace
+
+<a href="https://angular.io/guide/setup-local">Local Setup</a>
+
+##### Angular CLI
 
 A command line interface for Angular
 
@@ -35,7 +41,7 @@ A command line interface for Angular
 
 ### Creating a New Component
 
-Components are the most basic UI building block of an Angular app. An Angular app contains a tree of Angular components. Angular components are a subset of directives, always associated with a template. Unlike other directives, only one component can be instantiated for a given element in a template.
+<a href="https://angular.io/guide/component-overview"><b>Components</b></a> are the most basic UI building block of an Angular app. An Angular app contains a tree of Angular components. Angular components are a subset of directives, always associated with a template. Unlike other directives, only one component can be instantiated for a given element in a template.
 </br>
 
 <ol>
