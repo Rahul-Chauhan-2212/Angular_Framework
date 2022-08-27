@@ -56,4 +56,16 @@ We need component.ts file and inside that we have to define the class and decora
 </li>
 </ol>
 
+### Data Binding
+
+In an Angular template, a <a href="https://angular.io/guide/binding-overview">binding</a> creates a live connection between a part of the UI created from a template (a DOM element, directive, or component) and the model (the component instance to which the template belongs). This connection can be used to synchronize the view with the model, to notify the model when an event or user action takes place in the view, or both.</br>
+
+<ol>Examples of binding include:
+
+<li>text(string) interpolations</li>
+<li>property binding</li>
+<li>event binding</li>
+<li>two-way binding</li>
+</ol>
+
 </i>
