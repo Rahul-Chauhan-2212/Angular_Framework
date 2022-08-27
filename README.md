@@ -4,28 +4,50 @@
 <b>Angular</b> is a JavaScript Framework which allows you to create reactive single page applications(SPA).
 
 #### Angular Versions
+
 <h5>AngularJS(Angular 1)  ----->  Angular 2 ----> Angular 4 and so on...</br>
 (was completely rewritten) | Angular 3 was missed | Small, incremental and backward compatible changes
 </h5>
 
-#### Angular CLI
-A command line interface for Angular 
+### Angular CLI
+
+A command line interface for Angular
+
 <h5>npm install -g @angular/cli</h5>
 
 ###### Create New Angular Project
+
 <h5>ng new project-name --no-strict</h5>
 
 ###### Server the Project
+
 <h5>ng serve</h5>
 <h6>http://localhost:4200/</h6>
 
 ###### Install Bootstap locally in the project
+
 <h6>npm install --save bootstrap@3</h6>
 
 ### How Angular Works
-<h5>The <b>index.html</`b> is only the file that gets loaded but it can have the multiple components which are added in index.html as a tag(like <b><app-root></app-root></b>). The component ts file have a <b>@Component</b> decorator in which we have <b>'app-root'</b> selector which is used in index.html. In the same decorator, we define the template and CSS for the component. The Angular will make JS Bundles and includes those in index.html file. The <b>main.ts</b> file bootstrap the Modules. In app.module.ts, AppComponent is bootstrapped and in this way all a single <b>main.js</b> is bundled and injected in the index.html that is served.
+
+<h5>The <i>index.html</i> is only the file that gets loaded but it can have the multiple components which are added in index.html as a tag(like <i><app-root></app-root></i>). The component ts file have a <i>@Component</i> decorator in which we have <i>'app-root'</i> selector which is used in index.html. In the same decorator, we define the template and CSS for the component. The Angular will make JS Bundles and includes those in index.html file. The <i>main.ts</i> file bootstrap the Modules. In app.module.ts, AppComponent is bootstrapped and in this way all a single <i>main.js</i> is bundled and injected in the index.html that is served.
 </h5>
 
+### Creating a New Component
 
+Components are the most basic UI building block of an Angular app. An Angular app contains a tree of Angular components. Angular components are a subset of directives, always associated with a template. Unlike other directives, only one component can be instantiated for a given element in a template.
+</br>
+
+<ol>
+<li><h5>Manually</h5>
+We need component.ts file and inside that we have to define the class and decorate it with @Component and use selector and templateUrl tag to define the tag and html. Then in the app.component.html we can use the selector tag for this component. Also we need to import the component in app.module.ts.
+</li>
+<li><h5>Using CLI</h5>
+<ul>
+<li>ng generate component componentName</li>
+<li>ng g c componentName</li>
+</ul>
+</li>
+</ol>
 
 </i>
