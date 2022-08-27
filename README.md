@@ -69,7 +69,9 @@ Examples of binding include:
 <li>property binding
 <h6>[propery]="field"</h6>
 </li>
-<li>event binding</li>
+<li>event binding
+<h6>(event)="method()"</h6>
+</li>
 <li>two-way binding</li>
 </ol>
 
