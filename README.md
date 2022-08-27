@@ -72,7 +72,9 @@ Examples of binding include:
 <li>event binding
 <h6>(event)="method()"</h6>
 </li>
-<li>two-way binding</li>
+<li>two-way binding
+<h6>[(ngModel)]="field"</h6>
+</li>
 </ol>
 
 </i>
