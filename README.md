@@ -66,7 +66,9 @@ Examples of binding include:
 <li>text(string) interpolation
 <h6>{{something which return string or can be converted to string}}</h6>
 </li>
-<li>property binding</li>
+<li>property binding
+<h6>[propery]="field"</h6>
+</li>
 <li>event binding</li>
 <li>two-way binding</li>
 </ol>
