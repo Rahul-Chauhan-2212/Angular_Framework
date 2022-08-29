@@ -77,4 +77,21 @@ Examples of binding include:
 </li>
 </ol>
 
+### Directives
+
+<a href="https://angular.io/guide/built-in-directives">Directives</a> are classes that add additional behavior to elements in your Angular applications. Use Angular's built-in directives to manage forms, lists, styles, and what users see.
+
+<h5>Tyeps of Directives</h5>
+<ol>
+<li>Components</li>
+<li>Built in Directives</li>
+<li>Attribute Directives</li>
+<li>Structural Directives</li>
+</ol>
+
+<h5>Built in Directives</h5>
+<ol>
+<li>*ngIf="condition returning true or false"</li>
+</ol>
+
 </i>
