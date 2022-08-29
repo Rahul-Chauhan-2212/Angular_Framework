@@ -92,6 +92,7 @@ Examples of binding include:
 <h5>Built in Directives</h5>
 <ol>
 <li>*ngIf="condition returning true or false"</li>
+<li>[ngStyle]="JS Object for Styling"</li>
 </ol>
 
 </i>
