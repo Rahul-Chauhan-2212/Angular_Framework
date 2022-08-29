@@ -94,6 +94,7 @@ Examples of binding include:
 <li>*ngIf="condition returning true or false"</li>
 <li>[ngStyle]="JS Object for Styling"</li>
 <li>[ngClass]="JS Object for Styling classes"</li>
+<li>*ngFor="let variable of collection"</li>
 </ol>
 
 </i>
