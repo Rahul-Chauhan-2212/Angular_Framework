@@ -55,8 +55,8 @@ We need component.ts file and inside that we have to define the class and decora
 </ul>
 </li>
 </ol>
-Note: ng g c componentName will create component inside app folder by default. if you want to create component inside any other folder then use ng g c folderpath/componentName.</br>
-Note: ng g c componentName --skip-tests used to not create the testing ts file</br>
+Note: ng g c componentName will create component inside app folder by default. if you want to create component inside any other folder then use <b>ng g c folderpath/componentName</b>.</br>
+Note: <b>ng g c componentName --skip-tests</b> used to not create the testing ts file</br>
 
 ### Data Binding
 
